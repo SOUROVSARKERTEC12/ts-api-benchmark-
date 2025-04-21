@@ -4,11 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/app.ts",
-    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
+    "start:ts": "ts-node src/ts/app.ts",
+    "dev:ts": "ts-node-dev --respawn --transpile-only src/ts/app.ts",
+    "test:ts": "ts-node src/ts/test/loadTest.ts",
+    "start:js": "node src/js/app.js",
+    "dev:js": "nodemon src/js/app.js",
+    "test:js": "node src/js/test/loadTest.js",
     "build": "tsc",
-    "serve": "node dist/app.js",
-    "test": "ts-node src/test/loadTest.ts"
+    "serve": "node dist/app.js"
   },
   "dependencies": {
     "@types/express": "^5.0.1",

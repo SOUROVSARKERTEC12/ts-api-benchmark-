@@ -1,10 +1,10 @@
-# 🚀 API Load Testing with TypeScript
+# 🚀 API Load Testing with TypeScript and JavaScript
 
-A high-performance API load testing project using TypeScript, Express, and Autocannon.
+A high-performance API load testing project with both TypeScript and JavaScript implementations.
 
 ## ✨ Features
 
-- ⚡ Express server with TypeScript
+- ⚡ Express server in both TypeScript and JavaScript
 - 📊 Load testing with Autocannon
 - 🔄 Real-time progress tracking
 - 📈 Detailed performance metrics
@@ -25,31 +25,38 @@ yarn install
 
 ## 🚀 Usage
 
-### Start the Server
+### TypeScript Version
 
 ```bash
-yarn dev
+# Start the TypeScript server
+yarn dev:ts
+
+# Run TypeScript load tests
+yarn test:ts
 ```
 
-### Run Load Tests
+### JavaScript Version
 
 ```bash
-yarn test
-```
+# Start the JavaScript server
+yarn dev:js
 
-The load test will:
-- 🔌 Create 10 concurrent connections
-- ⏱️ Run for 10 seconds
-- 📡 Make GET requests to the server
-- 📊 Display real-time progress and results
+# Run JavaScript load tests
+yarn test:js
+```
 
 ## 📁 Project Structure
 
 ```
 ├── src/
-│   ├── app.ts          # Express server
-│   ├── test/
-│   │   └── loadTest.ts # Load testing configuration
+│   ├── js/                 # JavaScript implementation
+│   │   ├── app.js         # Express server
+│   │   └── test/
+│   │       └── loadTest.js # Load testing configuration
+│   └── ts/                 # TypeScript implementation
+│       ├── app.ts         # Express server
+│       ├── test/
+│       │   └── loadTest.ts # Load testing configuration
 │   └── types/
 │       └── autocannon.d.ts # TypeScript type definitions
 ├── package.json
@@ -70,7 +77,7 @@ The load test will:
 Here's the actual output from running the load test:
 
 ```bash
-$ yarn test
+$ yarn test:ts
 Running 10s test @ http://localhost:3000
 10 connections
 
