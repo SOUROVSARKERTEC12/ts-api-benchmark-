@@ -1,25 +1,29 @@
-# API Load Testing with TypeScript
+# 🚀 API Load Testing with TypeScript
 
-A simple API load testing project using TypeScript, Express, and Autocannon.
+A high-performance API load testing project using TypeScript, Express, and Autocannon.
 
-## Features
+## ✨ Features
 
-- Express server with TypeScript
-- Load testing with Autocannon
-- Real-time progress tracking
-- Detailed performance metrics
+- ⚡ Express server with TypeScript
+- 📊 Load testing with Autocannon
+- 🔄 Real-time progress tracking
+- 📈 Detailed performance metrics
+- 🎯 Easy to use and configure
 
-## Installation
+## 🛠️ Installation
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/SOUROVSARKERTEC12/ts-api-benchmark-.git
+
+# Navigate to project directory
+cd ts-api-benchmark
 
 # Install dependencies
 yarn install
 ```
 
-## Usage
+## 🚀 Usage
 
 ### Start the Server
 
@@ -34,12 +38,12 @@ yarn test
 ```
 
 The load test will:
-- Create 10 concurrent connections
-- Run for 10 seconds
-- Make GET requests to the server
-- Display real-time progress and results
+- 🔌 Create 10 concurrent connections
+- ⏱️ Run for 10 seconds
+- 📡 Make GET requests to the server
+- 📊 Display real-time progress and results
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 ├── src/
@@ -53,6 +57,26 @@ The load test will:
 └── README.md
 ```
 
-## License
+## 📊 Performance Metrics
 
-MIT 
+- Requests per second
+- Latency statistics
+- Error rates
+- Throughput analysis
+- Real-time progress tracking
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## ⭐ Show Your Support
+
+If you find this project helpful, please give it a ⭐ on GitHub!
+
+---
+
+Made with ❤️ by [SOUROVSARKERTEC12](https://github.com/SOUROVSARKERTEC12) 
